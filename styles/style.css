@@ -12,11 +12,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: var(--fonte-primaria);
 }
 
 body{
-    box-sizing: border-box;
     background-color: var(--cor-primaria);
 }
 
@@ -61,6 +61,10 @@ body{
     outline: 0;
     padding: 10px;
     text-transform: lowercase;
+}
+
+.aviso{
+    padding-left: 4%;
 }
 
 .aviso_destaque{
@@ -120,6 +124,7 @@ body{
     margin-top: 4%;
 }
 
+
 .container_bnt button{
     border: 2px solid var(--cor-secundaria);
     border-radius: 10px;
@@ -173,4 +178,11 @@ body{
     font-weight: bold;
     color: var(--cor-secundaria);
     margin-top: 2%;
+}
+
+@media (max-width: 1200px) {
+    .container_input{
+        flex-direction: column-reverse;
+    }
+
 }
