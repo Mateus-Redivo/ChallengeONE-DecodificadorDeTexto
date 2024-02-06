@@ -2,7 +2,7 @@
 
 ## Decodificador de Texto
 
-☁️ Deploy: <a>Decodificador de Texto</a>
+☁️ Deploy: <a href="https://challenge-one-decodificador-de-texto-livid.vercel.app/">Decodificador de Texto</a>
 
 ### 🚀 Sobre o Desafio
 
