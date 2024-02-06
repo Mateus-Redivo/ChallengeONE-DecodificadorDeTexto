@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <main class="main_container">
+        <header class="cabecalho">
+            <img src="assets/Logo.png" alt="Logo Alura">
+            <h1>Codificador e Decodificador de Texto</h1>
+        </header>
+
+        <div class="container_input">
+            <div class="input">
+                <textarea id="input_texto" placeholder="Digite seu texto aqui..."></textarea>
+                <p>Atenção: Apenas letras <strong class="aviso_destaque">minúsculas</strong> e sem <strong
+                        class="aviso_destaque">acentos</strong></p>
+            </div>
+
+            <div id="output">
+                <img src="assets/img.png" alt="Informação sobre a resposta da mesagem">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container_bnt">
+                <button onclick="criptografar()" class="btn_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn_descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="redes">
+            <a class="redes_link" href="https://github.com/Mateus-Redivo"> <img src="assets/logo-github.png"></a>
+
+            <a class="redes_link" href="https://www.linkedin.com/in/mateus-redivo-919b95105/"> <img
+                    src="assets/logo-linkedin.png"></a>
+        </div>
+        <div class="credito">
+            <p>&#169; Desenvolvido por Mateus Redivo - 2024</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
